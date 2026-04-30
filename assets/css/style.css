@@ -222,7 +222,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 44px 40px;
   }
 
   .card {
@@ -387,13 +387,14 @@ header {
   justify-content: center;
   align-items: center;
   padding: 100px 120px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* gap: 26px; */
 
   .travel_txt {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    max-width: 534px;
 
     h1 {
       font-weight: 400;
@@ -455,6 +456,10 @@ header {
       }
     }
   }
+  img {
+    width: 100%;
+    max-width: 640px;
+  }
 }
 .watch {
   display: flex;
@@ -469,7 +474,8 @@ header {
     line-height: 84px;
     text-align: center;
     color: #262626;
-    padding: 0 360px;
+    /* padding: 0 360px; */
+    /* width: 50%; */
   }
   .watch_img {
     position: relative;
@@ -706,31 +712,31 @@ footer {
   .travel {
     flex-wrap: wrap;
   }
-     .links {
-      gap: 40px;
+  .links {
+    gap: 40px;
+    padding: 0;
+
+    img {
+      width: 36px;
+      height: 36px;
+      opacity: 1;
+      border-radius: 100px;
+      padding: 8px;
+      position: absolute;
+      top: 165px;
+      z-index: 7;
+    }
+    .link {
+      gap: 28px;
       padding: 0;
+      margin-top: -42px;
 
-      img {
-        width: 36px;
-        height: 36px;
-        opacity: 1;
-        border-radius: 100px;
-        padding: 8px;
-        position: absolute;
-        top: 165px;
-        z-index: 7;
-      }
-      .link {
-        gap: 28px;
-        padding: 0;
-        margin-top: -42px;
-
-        a {
-          font-size: 16px;
-          line-height: 24px;
-        }
+      a {
+        font-size: 16px;
+        line-height: 24px;
       }
     }
+  }
 }
 /* //---------------------------------------------------------------------------// */
 
@@ -970,6 +976,7 @@ footer {
         position: absolute;
         top: 165px;
         z-index: 7;
+        right: 2px;
       }
       .link {
         gap: 28px;
