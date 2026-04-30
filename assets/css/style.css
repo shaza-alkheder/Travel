@@ -472,7 +472,7 @@ header {
   .watch_img {
     position: relative;
     display: inline-block;
-  
+
     & :nth-child(1) {
       width: 100%;
       height: auto;
@@ -697,28 +697,30 @@ footer {
   .travel {
     flex-wrap: wrap;
   }
-  .links {
-    gap: 40px;
-    padding: 0;
-
-    img {
-      width: 36px;
-      height: 36px;
-      opacity: 1;
-      border-radius: 100px;
-      padding: 8px;
-      position: absolute;
-      top: 165px;
-      z-index: 7;
-    }
-    .link {
-      gap: 28px;
+  footer {
+    .links {
+      gap: 40px;
       padding: 0;
-      margin-top: -42px;
 
-      a {
-        font-size: 16px;
-        line-height: 24px;
+      img {
+        width: 36px;
+        height: 36px;
+        opacity: 1;
+        border-radius: 100px;
+        padding: 8px;
+        position: absolute;
+        top: 165px;
+        z-index: 7;
+      }
+      .link {
+        gap: 28px;
+        padding: 0;
+        margin-top: -42px;
+
+        a {
+          font-size: 16px;
+          line-height: 24px;
+        }
       }
     }
   }
@@ -777,8 +779,6 @@ footer {
     }
   }
   .best_destination {
-    padding: 0 20px;
-
     .txt_content {
       h1 {
         font-size: 40px;
@@ -916,7 +916,6 @@ footer {
       & :nth-child(2) {
         content: url("./../img/PlaybuttonMobile.png");
         width: 60px;
-        /* background: url("./../img/PlaybuttonMobile.png") no-repeat center; */
       }
     }
   }
@@ -948,28 +947,8 @@ footer {
       }
     }
     .links {
-      gap: 40px;
-      padding: 0;
-
       img {
-        width: 36px;
-        height: 36px;
-        border-radius: 100px;
-        padding: 8px;
-        position: absolute;
-        top: 165px;
-        z-index: 7;
         right: 2px;
-      }
-      .link {
-        gap: 28px;
-        padding: 0;
-        margin-top: -42px;
-
-        a {
-          font-size: 16px;
-          line-height: 24px;
-        }
       }
     }
   }
