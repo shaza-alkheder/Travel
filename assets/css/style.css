@@ -229,12 +229,11 @@ header {
     border: 1px solid #f2f2f2;
     box-shadow: 105.45px 50.41px 78.04px 0px #3736640d;
     padding: 16px 16px 36px 16px;
-    border: 1px solid #f2f2f2;
 
     h2 {
       /* font-family: Urbanist; */
       font-weight: 700;
-      font-style: Bold;
+      font-style: bold;
       font-size: 24px;
       line-height: 36px;
       color: #262626;
@@ -426,7 +425,6 @@ header {
       & :nth-child(1) {
         /* width: 141px; */
         height: 54px;
-        opacity: 1;
         padding-top: 16px;
         padding-right: 32px;
         padding-bottom: 16px;
@@ -442,7 +440,6 @@ header {
         text-align: right;
       }
       & :nth-child(2) {
-        opacity: 1;
         gap: 4px;
         font-family: Urbanist;
         font-weight: 600;
@@ -513,7 +510,6 @@ header {
   }
   .offer_btn {
     height: 54px;
-    gap: 10px;
     opacity: 1;
     background: #25a59e;
     border: none;
@@ -521,7 +517,6 @@ header {
     font-weight: 600;
     font-size: 18px;
     color: #ffffff;
-
     text-align: right;
   }
 }
@@ -561,7 +556,6 @@ footer {
         box-shadow: 105.45px 50.41px 121.04px 0px #2c1d3c40;
         width: 40px;
         height: 40px;
-        opacity: 1;
         border-radius: 100px;
         display: flex;
         justify-content: center;
@@ -650,11 +644,10 @@ footer {
         img {
           width: 433px;
           height: 228px;
-          opacity: 1;
         }
       }
       .content {
-        padding: 24px;
+        /* padding: 24px; */
         flex-wrap: wrap;
         padding: 24px 20px 24px 20px;
         width: 100%;
@@ -969,7 +962,6 @@ footer {
       img {
         width: 36px;
         height: 36px;
-        opacity: 1;
         border-radius: 100px;
         padding: 8px;
         position: absolute;
