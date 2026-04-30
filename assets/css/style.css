@@ -424,8 +424,8 @@ header {
       display: flex;
       align-items: center;
       & :nth-child(1) {
-        width: 141;
-        height: 54;
+        /* width: 141px; */
+        height: 54px;
         opacity: 1;
         padding-top: 16px;
         padding-right: 32px;
@@ -650,7 +650,6 @@ footer {
         img {
           width: 433px;
           height: 228px;
-          angle: 0 deg;
           opacity: 1;
         }
       }
