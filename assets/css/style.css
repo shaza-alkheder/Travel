@@ -541,7 +541,7 @@ footer {
     h2 {
       font-weight: 400;
       font-size: 28px;
-      letter-spacing: 10%;
+      letter-spacing: 0.1em;
       color: #25a59e;
     }
     p {
@@ -955,7 +955,7 @@ footer {
       width: 375px;
       h2 {
         font-size: 16px;
-        letter-spacing: 10%;
+        letter-spacing: 0.1em;
       }
       p {
         font-size: 16px;
