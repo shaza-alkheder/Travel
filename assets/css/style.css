@@ -83,7 +83,7 @@ header {
         width: min(900px, 90vw);
         height: calc(min(900px, 90vw) / 2);
 
-        background: orange;
+        background: #ee8f39;
 
         border-radius: 500px 500px 0 0;
 
