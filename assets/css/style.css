@@ -39,7 +39,7 @@ header {
     padding-top: 156px;
     padding-left: 50px;
     padding-right: 50px;
-    overflow: clip;
+    /* overflow: clip; */
     position: relative;
 
     .hero_title {
@@ -64,7 +64,9 @@ header {
         position: absolute;
 
         width: min(1005px, 120vw);
-        height: calc(min(1005px, 120vw) / 2);
+        /* height: calc(min(1005px, 120vw) / 2); */
+        /* height: calc(min(1005px, 120vw) / 3); */
+        height: calc(min(1005px, 120vw) / 2.2);
 
         border: 2px solid #ee8f39;
 
@@ -81,7 +83,7 @@ header {
         position: absolute;
 
         width: min(900px, 90vw);
-        height: calc(min(900px, 90vw) / 2);
+        height: calc(min(900px, 90vw) / 2.2);
 
         background: #ee8f39;
 
@@ -91,7 +93,8 @@ header {
         top: 42%;
         transform: translateX(-50%);
 
-        box-shadow: 0 0 250px #44d5cd;
+        /* box-shadow: 0 0 250px #44d5cd; */
+        box-shadow: 0 -120px 200px -80px #44d5cd;
       }
       img {
         position: relative;
@@ -618,6 +621,7 @@ footer {
     .hero {
       padding-left: 0;
       padding-right: 0;
+      overflow: clip;
 
       .hero_title {
         font-weight: 400;
