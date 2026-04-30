@@ -158,7 +158,6 @@ header {
     p {
       /* font-family: Urbanist; */
       font-weight: 500;
-      /* font-size: 18px; */
       font-size: 16px;
       line-height: 32px;
       text-align: center;
@@ -178,7 +177,6 @@ header {
     .search_box form {
       position: relative;
     }
-    /* max-width: 400px; */
     .search {
       width: 100%;
       height: 64px;
@@ -186,8 +184,6 @@ header {
       border-radius: 100px;
       border: 1px solid #d9d9d9;
       background: #fafafa url(./../img/location.png) no-repeat 21px center;
-      /* background-size: 20px; */
-      /* min-width: 470px; */
     }
 
     .search::placeholder {
@@ -387,7 +383,6 @@ header {
   align-items: center;
   padding: 100px 120px;
   flex-wrap: wrap;
-  /* gap: 26px; */
 
   .travel_txt {
     display: flex;
@@ -477,9 +472,7 @@ header {
   .watch_img {
     position: relative;
     display: inline-block;
-    /* img {
-      width: 100%;
-    } */
+  
     & :nth-child(1) {
       width: 100%;
       height: auto;
@@ -755,7 +748,6 @@ footer {
         &::before {
           top: 0;
           width: min(1100px, 120vw);
-          height: min(550px, 60vw);
         }
         &::after {
           top: 25px;
