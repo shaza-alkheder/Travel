@@ -66,7 +66,7 @@ header {
         width: min(1005px, 120vw);
         height: calc(min(1005px, 120vw) / 2);
 
-        border: 2px solid orange;
+        border: 2px solid #ee8f39;
 
         border-radius: 550px 550px 0 0;
 
